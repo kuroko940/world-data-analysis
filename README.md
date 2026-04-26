@@ -25,7 +25,7 @@ Pour exécuter le projet et voir les résultats :
 1. **Préparation** : Créez un dossier nommé `data` à la racine du projet et placez-y le fichier `donnee_pays.csv`.
 2. **Lancement** : Ouvrez un terminal dans le dossier du projet et lancez l'interface :
 ```bash
-jupyter notebook Projet.ipynb
+jupyter notebook analyse_indicateurs_pays.ipynb
 ```
 3. **Exécution** : Une fois le notebook ouvert, exécutez les cellules dans l'ordre (du haut vers le bas).
    * Note : Chaque question est identifiée par un commentaire en haut de cellule (ex: `#Numero 1`).
