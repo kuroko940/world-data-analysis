@@ -22,7 +22,7 @@ pip install pandas numpy matplotlib mip
 ## Instructions de Lancement
 Pour exécuter le projet et voir les résultats :
 
-1. **Préparation** : Créez un dossier nommé `data` à la racine du projet et placez-y le fichier `donnee_pays.csv`.
+1. **Préparation** : Placez impérativement le fichier `donnee_pays.csv` dans le même dossier que le fichier  analyse_indicateurs_pays.ipynb
 2. **Lancement** : Ouvrez un terminal dans le dossier du projet et lancez l'interface :
 ```bash
 jupyter notebook analyse_indicateurs_pays.ipynb
