@@ -10,10 +10,10 @@ Le projet s'appuie sur deux piliers mathématiques détaillés dans le rapport :
 * **Dominance au sens de Pareto** : Analyse des relations de dominance entre les alternatives.
 * **Méthode ELECTRE** : Utilisation de relations de surclassement (seuils de concordance et de non-veto) pour classer les pays dans des catégories allant de **A (Excellente)** à **E (Faible)**.
 ## Structure du Projet
-* **Projet.ipynb** : Le notebook principal contenant l'intégralité du code. Les cellules sont marquées par **#Numero X** pour correspondre aux questions du sujet.
+* **analyse_indicateurs_pays.ipynb** : Le notebook principal contenant l'intégralité du code. Les cellules sont marquées par **#Numero X** pour correspondre aux questions du sujet.
 * **Rapport.pdf** : Document expliquant les choix méthodologiques, les calculs mathématiques et l'interprétation des résultats.
 * **data/** : Dossier contenant le dataset source.
-    * **Pays_projet.csv** : Données brutes (scores des pays sur 11 critères).
+    * **donnee_pays.csv** : Données brutes (scores des pays sur 11 critères).
 ## Installation
 Le projet nécessite Python 3 et les bibliothèques suivantes :
 ```bash
@@ -22,7 +22,7 @@ pip install pandas numpy matplotlib mip
 ## Instructions de Lancement
 Pour exécuter le projet et voir les résultats :
 
-1. **Préparation** : Placez impérativement le fichier `donnee_pays.csv` dans le même dossier que le fichier  analyse_indicateurs_pays.ipynb
+1. **Préparation** : Placez impérativement le fichier `donnee_pays.csv` dans le même dossier que le fichier  `analyse_indicateurs_pays.ipynb`
 2. **Lancement** : Ouvrez un terminal dans le dossier du projet et lancez l'interface :
 ```bash
 jupyter notebook analyse_indicateurs_pays.ipynb
